@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display & Position Practice</title>
+
+<style>
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+}
+
+h2{
+    background:#333;
+    color:white;
+    padding:10px;
+}
+
+.task1 span{
+    display:block;
+    width:200px;
+    padding:10px;
+    background:lightblue;
+    margin-bottom:10px;
+}
+
+
+.task2 div{
+    display:inline-block;
+    padding:20px;
+    margin:10px;
+    color:white;
+}
+
+.box1{background:red;}
+.box2{background:green;}
+.box3{background:blue;}
+.box4{background:orange;}
+.box5{background:purple;}
+
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:180px;
+    border:2px solid gray;
+    padding:15px;
+    margin:10px;
+    text-align:center;
+}
+
+.card button{
+    padding:10px 20px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background:darkgreen;
+}
+
+
+.menu{
+    background:#444;
+    padding:15px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    padding:10px 20px;
+}
+
+.menu a:hover{
+    background:orange;
+    color:black;
+}
+
+
+.task5{
+    margin-top:20px;
+}
+
+.task5 .box{
+    width:100px;
+    height:100px;
+    display:inline-block;
+    margin:10px;
+}
+
+.red{
+    background:red;
+}
+
+.green{
+    background:green;
+    position:relative;
+    top:30px;
+    left:50px;
+}
+
+.blue{
+    background:blue;
+}
+
+
+.container{
+    width:400px;
+    height:250px;
+    border:3px solid black;
+    position:relative;
+    margin-top:20px;
+}
+
+.small{
+    width:80px;
+    height:80px;
+    background:orange;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background:navy;
+    color:white;
+    text-align:center;
+    line-height:70px;
+    font-size:24px;
+}
+
+.content{
+    margin-top:90px;
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+<!--<h2>Task 1 - Span as Block Elements</h2>
+
+<div class="task1 span">
+    <span>Span 1</span>
+    <span>Span 2</span>
+    <span>Span 3</span>
+    <span>Span 4</span>
+    <span>Span 5</span>
+</div>
+
+<hr>
+
+
+ <h2>Task 2 - Divs in One Line</h2>
+
+<div class="task2">
+    <div class="box1">Div 1</div>
+    <div class="box2">Div 2</div>
+    <div class="box3">Div 3</div>
+    <div class="box4">Div 4</div>
+    <div class="box5">Div 5</div>
+</div>
+
+<hr>--
+
+
+<h2>Task 3 - Product Cards</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Product 1</h3>
+<p>$100</p>
+<button>Buy</button>
+</div>
+
+<div class="card">
+<h3>Product 2</h3>
+<p>$200</p>
+<button>Buy</button>
+</div>
+
+<div class="card">
+<h3>Product 3</h3>
+<p>$300</p>
+<button>Buy</button>
+</div>
+
+<div class="card">
+<h3>Product 4</h3>
+<p>$400</p>
+<button>Buy</button>
+</div>
+
+</div>--
+
+<h2>Task 4 - Horizontal Menu</h2>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</div>
+
+<hr>--
+
+
+<h2>Task 5 - Relative Position</h2>
+
+<div class="task5">
+
+<div class="box red"></div>
+
+<div class="box green"></div>
+
+<div class="box blue"></div>
+
+</div>
+
+<hr>--
+
+<h2>Task 6 - Absolute Position</h2>
+
+<div class="container">
+
+<div class="small"></div>
+
+</div>
+
+<hr>-->
+
+
+<div class="header">
+Fixed Header
+</div>
+
+<div class="content">
+
+<h2>Task 7 - Fixed Header Example</h2>
+
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+<p>Paragraph 4</p>
+<p>Paragraph 5</p>
+<p>Paragraph 6</p>
+<p>Paragraph 7</p>
+<p>Paragraph 8</p>
+<p>Paragraph 9</p>
+<p>Paragraph 10</p>
+<p>Paragraph 11</p>
+<p>Paragraph 12</p>
+<p>Paragraph 13</p>
+<p>Paragraph 14</p>
+<p>Paragraph 15</p>
+<p>Paragraph 16</p>
+<p>Paragraph 17</p>
+<p>Paragraph 18</p>
+<p>Paragraph 19</p>
+<p>Paragraph 20</p>
+
+</div> 
+
+</body>
+</html>
